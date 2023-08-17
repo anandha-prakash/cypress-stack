@@ -1,0 +1,16 @@
+{
+  "scripts": {
+    "open": "cypress open -b chrome --e2e",
+    "percy:local:run": "percy exec cypress run",
+    "bstack": "browserstack-cypress run --sync --headed",
+    "test:cross:browsers": "browserstack-cypress run --sync --headed --browser \"chrome@latest:Windows 11,firefox@latest:Windows 11,webkit@latest:OS X Ventura\"",
+    "local": "cypress run",
+    "tsc": "tsc --project cypress/"
+  },
+  "devDependencies": {
+    "browserstack-cypress-cli": "^1.25.0",
+    "cypress": "^12.17.4",
+    "playwright-webkit": "^1.37.0",
+    "typescript": "^5.1.6"
+  }
+}
