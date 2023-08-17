@@ -1,0 +1,30 @@
+{
+    "browsers": [
+        {
+            "browser": "chrome",
+            "os": "OS X Ventura",
+            "versions": ["latest"]
+        }
+    ],
+    "testObservability": false,
+    "run_settings": {
+        "cypress_version": "12.latest",
+        "timezone": "Chicago",
+        "spec_timeout": "3",
+        "build_name": "cypress-bstack",
+        "cypress_config_file": "./cypress.config.ts",
+        "home_directory": "./",
+        "project_name": "cypress-bstack",
+        "cache_dependencies": "true",
+        "interactiveDebugging": "true",
+        "exclude": [],
+        "parallels": "5",
+        "npm_dependencies": {
+            "cypress": "^12.17.3",
+            "playwright-webkit": "^1.37.0",
+            "typescript": "^5.1.6"
+        },
+        "package_config_options": {
+        }
+    }
+}

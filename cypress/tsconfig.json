@@ -1,0 +1,19 @@
+{
+    "compilerOptions": {
+        "target": "es2021",
+        "lib": ["ES6","es2021", "dom"],
+        "types": ["cypress", "node"],
+        "allowJs": true,
+        "isolatedModules": false,
+        "esModuleInterop": true,
+        "moduleResolution": "node",
+        "resolveJsonModule": true,
+        "skipLibCheck": true,
+        "sourceMap": false,
+        "outDir": "../ts-build"
+    },
+    "include": [
+        "./**/**/*.ts",
+        "../node_modules/cypress",
+    ],
+}
