@@ -21,4 +21,4 @@ jobs:
           with:
               install: true
               working-directory: .
-              command: yarn bstack --local true --local-mode always-on --local-identifier "cy-bstack-${{github.run_id}}-${{github.run_attempt}}"
+              command: yarn bstack --local true --local-mode always-on --local-identifier cy-bstack-${{github.run_id}}-${{github.run_attempt}}
