@@ -39,6 +39,18 @@
     debug "^3.1.0"
     lodash.once "^4.1.1"
 
+"@percy/cypress@^3.1.2":
+  version "3.1.2"
+  resolved "https://registry.yarnpkg.com/@percy/cypress/-/cypress-3.1.2.tgz#a087d3c59a6b155eab5fdb4c237526b9cfacbc22"
+  integrity sha512-JXrGDZbqwkzQd2h5T5D7PvqoucNaiMh4ChPp8cLQiEtRuLHta9nf1lEuXH+jnatGL2j+3jJFIHJ0L7XrgVnvQA==
+  dependencies:
+    "@percy/sdk-utils" "^1.3.1"
+
+"@percy/sdk-utils@^1.3.1":
+  version "1.27.0"
+  resolved "https://registry.yarnpkg.com/@percy/sdk-utils/-/sdk-utils-1.27.0.tgz#3973e8e4d5078cdc9867971d0ca3219473f3c356"
+  integrity sha512-570hwstkXVwjtBTrZL0MXisid1WnWtc5UZU7FLeXwislNTK/0lBTbdg8a+NM+uuzm2rf3uI5Aw/rQaqfshBJPg==
+
 "@sindresorhus/is@^0.14.0":
   version "0.14.0"
   resolved "https://registry.yarnpkg.com/@sindresorhus/is/-/is-0.14.0.tgz#9fb3a3cf3132328151f353de4632e01e52102bea"
