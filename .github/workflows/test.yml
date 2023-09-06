@@ -1,7 +1,9 @@
 name: tests
 
 on:
-  pull_request:
+  push:
+    branches:
+      - '**'
 
 env:
     BROWSERSTACK_USERNAME: ${{ secrets.BROWSERSTACK_USERNAME }}

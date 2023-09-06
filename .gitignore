@@ -7,6 +7,14 @@ yarn-error.log*
 lerna-debug.log*
 .pnpm-debug.log*
 
+tmpBstackPackages/
+results
+report
+reports
+log
+logs
+Logs
+
 .idea
 log
 results
