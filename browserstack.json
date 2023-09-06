@@ -2,7 +2,27 @@
     "browsers": [
         {
             "browser": "chrome",
+            "os": "OS X Ventura",
+            "versions": ["latest"]
+        },
+        {
+            "browser": "chrome",
             "os": "Windows 11",
+            "versions": ["latest"]
+        },
+        {
+            "browser": "firefox",
+            "os": "Windows 11",
+            "versions": ["latest"]
+        },
+        {
+            "browser": "firefox",
+            "os": "OS X Ventura",
+            "versions": ["latest"]
+        },
+        {
+            "browser": "webkit",
+            "os": "OS X Ventura",
             "versions": ["latest"]
         }
     ],
@@ -16,7 +36,7 @@
         "cypress_config_file": "./cypress.config.ts",
         "home_directory": "./",
         "project_name": "cypress-bstack",
-        "cache_dependencies": "true",
+        "cache_dependencies": "false",
         "interactiveDebugging": "true",
         "exclude": [],
         "parallels": "5",

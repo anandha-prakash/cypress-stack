@@ -2051,17 +2051,17 @@ pinkie@^2.0.0:
   resolved "https://registry.yarnpkg.com/pinkie/-/pinkie-2.0.4.tgz#72556b80cfa0d48a974e80e77248e80ed4f7f870"
   integrity sha512-MnUuEycAemtSaeFSjXKW/aroV7akBbY+Sv+RkyqFjgAe73F+MR0TBWKBRDkmfWq/HiFmdavfZ1G7h4SPZXaCSg==
 
-playwright-core@1.37.0:
-  version "1.37.0"
-  resolved "https://registry.yarnpkg.com/playwright-core/-/playwright-core-1.37.0.tgz#a0a009b840076706452e29aab0efe0ebf5d45ab1"
-  integrity sha512-1c46jhTH/myQw6sesrcuHVtLoSNfJv8Pfy9t3rs6subY7kARv0HRw5PpyfPYPpPtQvBOmgbE6K+qgYUpj81LAA==
+playwright-core@1.37.1:
+  version "1.37.1"
+  resolved "https://registry.yarnpkg.com/playwright-core/-/playwright-core-1.37.1.tgz#cb517d52e2e8cb4fa71957639f1cd105d1683126"
+  integrity sha512-17EuQxlSIYCmEMwzMqusJ2ztDgJePjrbttaefgdsiqeLWidjYz9BxXaTaZWxH1J95SHGk6tjE+dwgWILJoUZfA==
 
-playwright-webkit@^1.37.0:
-  version "1.37.0"
-  resolved "https://registry.yarnpkg.com/playwright-webkit/-/playwright-webkit-1.37.0.tgz#88f85cfb38a39115498c951ceaaa377b6e08a302"
-  integrity sha512-lYCxqyEIfdskyWvAbzUh2MgPB5NV3Bq9Ss3ckTdbDaOFPYFvTe8YpzwQt1ICkz/DX+84Fqp4fvbbUzJ35Ckixg==
+playwright-webkit@^1.37.1:
+  version "1.37.1"
+  resolved "https://registry.yarnpkg.com/playwright-webkit/-/playwright-webkit-1.37.1.tgz#b601355c2c4189cc76472c14c392154174d136e1"
+  integrity sha512-evRNDTDgcBpKbLHbY8YKJq0LTKaRxmvhIyZHGljIc42mtmID15wkQXXVJAc90ohV0UVRw9y83k57IMjoA/xEyw==
   dependencies:
-    playwright-core "1.37.0"
+    playwright-core "1.37.1"
 
 prepend-http@^2.0.0:
   version "2.0.0"

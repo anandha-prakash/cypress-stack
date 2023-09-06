@@ -11,7 +11,7 @@
     "@percy/cypress": "^3.1.2",
     "browserstack-cypress-cli": "^1.25.0",
     "cypress": "^12.17.4",
-    "playwright-webkit": "^1.37.0",
+    "playwright-webkit": "^1.37.1",
     "typescript": "^5.1.6"
   }
 }
